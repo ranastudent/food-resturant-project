@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+      margin: 0px;
+      padding: 0px;
+}
+.btn{
+      padding: 14px 18px 14px 18px;
+      color: rgb(255, 255, 255);
+      font-family: Work Sans;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0%;
+      text-align: center; 
+      border-radius: 8px;
+
+      background: rgb(82, 195, 3);
+      border: none;
+      cursor: pointer;
+      }
+.btn-container{
+      text-align: center;
+}
+#hero{
+      height: 765px;
+      background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),  url(../assets/hero-bg.png);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#hero .hero-content{
+      width: 849px;
+     
+}
+#hero .hero-content .subtitle{
+      color: rgb(255, 255, 255);
+      font-family: Work Sans;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: 0%;
+      text-align: center;
+      opacity: 0.8;
+      margin-bottom: 10px;
+}
+#hero .hero-content .title{
+      color: rgb(255, 255, 255);
+      font-family: Work Sans;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 51px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-bottom: 14px;
+}
+#hero .hero-content .description{
+      color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 11px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+}
+#card-box{
+      width: 1095px;
+      margin: 100px auto;
+}
+#card-box .title{
+      color: rgb(16, 16, 16);
+      font-family: Work Sans;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 35px;
+      letter-spacing: 0%;
+      text-align: center;
+}
+#card-box .subtitle{
+      color: rgb(16, 16, 16);
+      font-family: Work Sans;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 15px;
+      letter-spacing: 0%;
+      text-align: center;
+      opacity: 0.7;
+}
+#card-box .info{
+
+}
+#card-box .card-containar{
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      font-family: Work Sans;
+}
+.card{
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+}
+.card .img-box{
+      width: 350px;
+}
+.card .img-box img{
+      width: 100%;
+}
+.card .shop{
+      /* text-align: center; */
+      padding: 11px 26px 11px 26px;
+      background: rgba(82, 195, 3, 0.15);
+}
+.card .btn{
+
+}
+
+.food-containar .food-img .food{
+      /* image 1 */
+     
+      width: 800px;
+      height: 671px;
+      left: 0;
+      top: 0;
+      
+}
+.last-page{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0px;
+}
+.last-page .food-heading{
+      color: rgb(16, 16, 16);
+      font-family: Work Sans;
+      font-size: 40px;
+      font-weight: 583px;
+      line-height: 64px;
+      letter-spacing: 0%;
+      text-align: center;
+}
+.last-page .Subscribe{
+      color: rgb(16, 16, 16);
+      font-family: Work Sans;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0%;
+      text-align: left;
+      opacity: 0.6;
+      margin-top: 25px;
+}
+.last-page .Follow{
+      color: rgb(16, 16, 16);
+      font-family: Work Sans;
+      font-size: 36px;
+      font-weight: 500px;
+      line-height: 38px;
+      letter-spacing: 0%;
+      text-align: center;
+      opacity: 0.6;
+}
+.Follow-box{
+      margin: 40px 0px 30px 0px;
+}
+.icon-img img{
+      width: 40px;
+      height: 40px;
+     
+      margin: 0px 10px;
+      
+      padding: 0px;
+      
+}
+
+.food-containar{
+      display: flex;
+      justify-content: space-evenly;
+}
